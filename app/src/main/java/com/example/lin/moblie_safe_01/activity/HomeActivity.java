@@ -36,6 +36,9 @@ public class HomeActivity extends Activity {
     private TextView tv_marquee;
     private Myadapter adadpter;
 
+    /**
+     * @param savedInstanceState 测试github上能否做出更新
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
