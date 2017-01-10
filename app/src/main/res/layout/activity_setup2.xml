@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/textview"
+        android:text="手机卡绑定" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="通过绑定手机卡：\n下次重启手机时，如果发现SIM卡更改就会发送报警信息"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <com.example.lin.moblie_safe_01.view.SettingItemView xmlns:mobliesafe="http://schemas.android.com/apk/res/com.example.lin.moblie_safe_01"
+        android:id="@+id/sv_sim_bound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        mobliesafe:desoff="SIM卡已绑定"
+        mobliesafe:deson="SIM卡未绑定"
+        mobliesafe:destitle="点击绑定手机卡"></com.example.lin.moblie_safe_01.view.SettingItemView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/point_unselected" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/point_selected" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/point_unselected" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/point_unselected" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/setup2_sim" />
+
+        <Button
+            style="@style/nextBtn" />
+
+        <Button
+            style="@style/backBtn" />
+    </RelativeLayout>
+</LinearLayout>

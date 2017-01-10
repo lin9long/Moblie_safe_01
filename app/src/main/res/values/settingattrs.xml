@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="com.example.lin.moblie_safe_01.view.SettingItemView">
+        <attr name="destitle" format="string"></attr>
+        <attr name="desoff" format="string"></attr>
+        <attr name="deson" format="string"></attr>
+    </declare-styleable>
+
+</resources>

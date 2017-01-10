@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><!--制定窗体小部件属性，加载其默认情况下的布局文件-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/process_widget"
+    android:minHeight="72.0dip"
+    android:minWidth="294.0dip"
+    android:updatePeriodMillis="0">
+
+</appwidget-provider>

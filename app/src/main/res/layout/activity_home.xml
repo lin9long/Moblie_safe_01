@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/textview"
+        android:text="功能选项" />
+
+    <com.example.lin.moblie_safe_01.view.FocusTextView
+        android:id="@+id/tv_marquee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:text="这是一个手机安全卫士的demo，主要实现功能为:手机防盗, 通信卫士, 软件管理, 进程管理,
+                流量统计, 手机杀毒, 缓存清理, 高级工具, 系统设置"
+        android:textColor="#000" />
+    <LinearLayout
+        android:id="@+id/ll_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gv_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:numColumns="3"
+        android:padding="10dp"
+        android:verticalSpacing="20dp"></GridView>
+</LinearLayout>

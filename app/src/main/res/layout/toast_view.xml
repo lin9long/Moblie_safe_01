@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:id="@+id/tv_toast"
+    android:text="13258752"
+    android:padding="8sp"
+    android:textSize="18sp"
+    android:gravity="center_vertical"
+    android:drawableLeft="@android:drawable/ic_menu_call"
+    android:background="@drawable/toast_color3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+</RelativeLayout>

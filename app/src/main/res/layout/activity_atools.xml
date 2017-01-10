@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/textview"
+        android:text="高级工具" />
+    <TextView
+        android:id="@+id/tv_query_phone_address"
+        android:padding="7sp"
+        android:drawableLeft="@drawable/star"
+        android:text="归属地查询"
+        android:background="@drawable/selector_atool_item"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_sms_backup"
+        android:padding="7sp"
+        android:drawableLeft="@drawable/star"
+        android:text="短信备份"
+        android:background="@drawable/selector_atool_item"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_comment_number"
+        android:padding="7sp"
+        android:drawableLeft="@drawable/star"
+        android:text="常用号码查询"
+        android:background="@drawable/selector_atool_item"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_lock_app"
+        android:padding="7sp"
+        android:drawableLeft="@drawable/star"
+        android:text="应用加锁"
+        android:background="@drawable/selector_atool_item"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

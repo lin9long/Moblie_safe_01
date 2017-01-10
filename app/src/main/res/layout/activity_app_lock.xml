@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_unlock"
+            android:text="未加锁"
+            android:background="@drawable/tab_left_pressed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btn_lock"
+            android:text="已加锁"
+            android:background="@drawable/tab_right_default"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+   <LinearLayout
+       android:id="@+id/ll_unlock"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <TextView
+           android:id="@+id/tv_unlock_app"
+           android:text="未加锁程序"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <ListView
+           android:id="@+id/lv_unlock"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"></ListView>
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_lock"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_lock_app"
+            android:text="未加锁程序"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ListView
+            android:id="@+id/lv_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+
+</LinearLayout>

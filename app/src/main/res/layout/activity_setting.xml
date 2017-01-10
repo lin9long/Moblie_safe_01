@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/textview"
+        android:text="系统设置" />
+
+    <com.example.lin.moblie_safe_01.view.SettingItemView
+        xmlns:mobliesafe="http://schemas.android.com/apk/res/com.example.lin.moblie_safe_01"
+        android:id="@+id/sv_updata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        mobliesafe:desoff="自动更新已关闭"
+        mobliesafe:deson="自动更新已开启"
+        mobliesafe:destitle="自动更新设置"></com.example.lin.moblie_safe_01.view.SettingItemView>
+
+    <com.example.lin.moblie_safe_01.view.SettingItemView
+        xmlns:mobliesafe="http://schemas.android.com/apk/res/com.example.lin.moblie_safe_01"
+        android:id="@+id/sv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        mobliesafe:desoff="电话归属地显示已关闭"
+        mobliesafe:deson="电话归属地显示已开启"
+        mobliesafe:destitle="电话归属地显示设置"></com.example.lin.moblie_safe_01.view.SettingItemView>
+     <com.example.lin.moblie_safe_01.view.SettingClickView
+         android:id="@+id/scv_toast_style"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"></com.example.lin.moblie_safe_01.view.SettingClickView>
+    <com.example.lin.moblie_safe_01.view.SettingClickView
+        android:id="@+id/scv_toast_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.lin.moblie_safe_01.view.SettingClickView>
+    <com.example.lin.moblie_safe_01.view.SettingItemView
+        xmlns:mobliesafe="http://schemas.android.com/apk/res/com.example.lin.moblie_safe_01"
+        android:id="@+id/sv_blacknumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        mobliesafe:desoff="黑名单拦截已关闭"
+        mobliesafe:deson="黑名单拦截已开启"
+        mobliesafe:destitle="黑名单拦截设置"></com.example.lin.moblie_safe_01.view.SettingItemView>
+    <com.example.lin.moblie_safe_01.view.SettingItemView
+        xmlns:mobliesafe="http://schemas.android.com/apk/res/com.example.lin.moblie_safe_01"
+        android:id="@+id/sv_applock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        mobliesafe:desoff="程序锁已关闭"
+        mobliesafe:deson="程序锁已开启"
+        mobliesafe:destitle="程序锁设置"></com.example.lin.moblie_safe_01.view.SettingItemView>
+</LinearLayout>
