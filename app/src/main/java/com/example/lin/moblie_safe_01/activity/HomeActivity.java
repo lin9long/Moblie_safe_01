@@ -37,7 +37,7 @@ public class HomeActivity extends Activity {
     private Myadapter adadpter;
 
     /**
-     * @param savedInstanceState 测试github上能否做出更新
+     * @param savedInstanceState 测试github上能否做出更新 1231312
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
